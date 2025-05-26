@@ -49,35 +49,24 @@ compute_edge_length() – Traverses one edge and calculates arc length
 plot() – Visualizes the surface with a 3D plot
 
 ▶️ Usage
-python
-Copy
-Edit
+
 mobius = MobiusStrip(R=1.0, w=0.5, n=200)
 mobius.plot()
 print(f"Surface Area: {mobius.compute_surface_area():.4f}")
 print(f"Edge Length: {mobius.compute_edge_length():.4f}")
 📊 Output Example
-3D visualization (plotted in a new window)
-
+3D visualization 
+![Möbius Strip](mobius_strip_plot.png)
 Printed values:
-
-yaml
-Copy
-Edit
 Surface Area: 3.1412
 Edge Length: 6.2831
+
 🧩 Challenges Faced
 Calculating surface area required correct use of numerical integration across a meshgrid.
-
 Properly applying the cross product between partial derivatives was crucial for accuracy.
-
 Ensuring the edge length traced the boundary of the strip, not across its center, required geometric care.
 
-📤 Submission Link
-Submit your assignment here:
-🔗 https://forms.gle/NXhVANGfTXdpE1aCA
 
 📁 Files Included
 mobius_strip.py – Main Python script
-
 README.md – Project documentation
