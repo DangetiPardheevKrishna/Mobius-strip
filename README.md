@@ -27,18 +27,10 @@ Install dependencies via pip:
 ![Möbius Strip](mobius_strip_plot.png)
 
 ```bash
-pip install numpy scipy matplotlib
-
-
-
-
 
 🧠 Parametric Equations Used
-Given parameters R (radius), w (width), and variables u ∈ [0, 2π], v ∈ [-w/2, w/2], the equations are:
+Given parameters R (radius), w (width), n(resolution) and variables u ∈ [0, 2π], v ∈ [-w/2, w/2], the equations are:
 
-cpp
-Copy
-Edit
 x(u,v) = (R + v * cos(u/2)) * cos(u)
 y(u,v) = (R + v * cos(u/2)) * sin(u)
 z(u,v) = v * sin(u/2)
