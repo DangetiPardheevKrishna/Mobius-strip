@@ -20,7 +20,12 @@ This Python script models a **Möbius strip** using parametric equations and com
 - Matplotlib
 
 Install dependencies via pip:
+
+
+📊 Output Example
+3D visualization 
 ![Möbius Strip](mobius_strip_plot.png)
+
 ```bash
 pip install numpy scipy matplotlib
 
@@ -54,8 +59,6 @@ mobius = MobiusStrip(R=1.0, w=0.5, n=200)
 mobius.plot()
 print(f"Surface Area: {mobius.compute_surface_area():.4f}")
 print(f"Edge Length: {mobius.compute_edge_length():.4f}")
-📊 Output Example
-3D visualization 
 
 Printed values:
 Surface Area: 3.1412
