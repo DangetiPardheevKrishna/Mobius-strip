@@ -24,7 +24,7 @@ Install dependencies via pip:
 
 📊 Output Example
 3D visualization 
-![Möbius Strip](mobius_strip_plot.png)
+![Möbius Strip](mobius_strip_plo)
 
 ```bash
 
