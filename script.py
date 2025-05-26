@@ -110,6 +110,7 @@ class MobiusStrip:
         ax.set_title(f'Mobius Strip (R={self.R}, w={self.w})')
         
         plt.tight_layout()
+        plt.savefig("mobius_strip_plot.png") 
         plt.show()
 
 # Example usage
